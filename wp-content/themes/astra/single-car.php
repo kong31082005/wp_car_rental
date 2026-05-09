@@ -908,7 +908,12 @@ while (have_posts()) : the_post();
             <div><span>Mã khuyến mãi</span><strong id="personalDiscountText">0đ</strong></div>
             <div class="total"><span>Thành tiền</span><strong id="totalText"><?php echo number_format($price, 0, ',', '.'); ?>đ</strong></div>
           </div>
-
+          <div class="rental-terms" style="margin: 15px 0; font-size: 14px; display: flex; align-items: flex-start; gap: 8px;">
+            <input type="checkbox" id="agree_terms" style="margin-top: 4px; cursor: pointer;">
+            <label for="agree_terms" style="cursor: pointer;">
+              Tôi đã đọc và đồng ý với <a href="#" style="color: #16a34a; font-weight: bold; text-decoration: underline;">điều khoản hợp đồng thuê xe</a>
+            </label>
+          </div>
           <button class="rent-btn" id="rentBtn">⚡ CHỌN THUÊ</button>
         </div>
 
@@ -1132,6 +1137,8 @@ while (have_posts()) : the_post();
     });
 
     document.getElementById('rentBtn').addEventListener('click', function() {
+      const agreeCheckbox = document.getElementById('agree_terms');
+
       const deliveryAddress = document.getElementById('deliveryAddress').value.trim();
 
       if (!validateRentalTime(true)) return;
@@ -1139,6 +1146,10 @@ while (have_posts()) : the_post();
       if (selectedPickupType === 'delivery' && !deliveryAddress) {
         alert('Vui lòng nhập địa chỉ giao xe.');
         return;
+      }
+      if (!agreeCheckbox.checked) {
+        alert('Bạn phải đồng ý với điều khoản hợp đồng để tiếp tục!');
+        return; // Dừng lại không gọi AJAX
       }
 
       // Hiệu ứng loading cho nút

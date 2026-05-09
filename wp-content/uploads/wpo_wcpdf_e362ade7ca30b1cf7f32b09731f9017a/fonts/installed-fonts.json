@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/OpenSans-Normal",
+        "bold": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/OpenSans-Bold",
+        "italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/OpenSans-Italic",
+        "bold_italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/Segoe-Normal",
+        "bold": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/Segoe-Bold",
+        "italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/Segoe-Italic",
+        "bold_italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/RobotoSlab-Normal",
+        "bold": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/RobotoSlab-Bold",
+        "italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/currencies",
+        "bold": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/currencies",
+        "italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/currencies",
+        "bold_italic": "D:\/XAMPP_install\/htdocs\/wp_car_rental\/wp-content\/uploads\/wpo_wcpdf_e362ade7ca30b1cf7f32b09731f9017a\/fonts\/currencies"
+    }
+}
