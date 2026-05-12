@@ -1,4 +1,4 @@
-# 🚗 KONG CARS - HỆ THỐNG QUẢN LÝ THUÊ XE TỰ LÁI
+# 🚗 KONG CARS - DỊCH VỤ CHO THUÊ XE TỰ LÁI KONGCARS
 ## 🌐 Đồ án môn học: Xây dựng Website trên nền tảng Mã nguồn mở (WordPress)
 
 Hệ thống được xây dựng trên nền tảng **WordPress Nâng Cao**, kết hợp giữa các công cụ xây dựng giao diện chuyên nghiệp và các đoạn mã tùy chỉnh (Custom Logic) để giải quyết bài toán thực tế trong lĩnh vực vận tải số. Dự án hỗ trợ quy trình đặt xe khép kín, xác lập hợp đồng điện tử và tự động hóa thanh toán trực tuyến.
