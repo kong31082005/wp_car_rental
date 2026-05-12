@@ -16,12 +16,12 @@ Hệ thống **Kong Cars** là nền tảng thương mại dịch vụ chuyên b
 
 ## 🔗 Thông tin dự án
 * **Link Website Online:** [https://kongcars.infinityfreeapp.com/]
-* **Link Video Demo:** [Xem Video Thuyết Minh Tại Đây]([https://your-youtube-link.com](https://drive.google.com/drive/folders/14kjW7e0CReFendRDWB2mkh_Q3Zaev7d3?usp=sharing))
+* **Link Video Demo:** [Xem Video Thuyết Minh Tại Đây][https://drive.google.com/drive/folders/14kjW7e0CReFendRDWB2mkh_Q3Zaev7d3?usp=sharing]
 
 ---
 
 ## 🔐 Tài khoản Demo
-* **Trang quản trị:** `https://kongcars.id.vn/wp-admin`
+* **Trang quản trị:** [https://kongcars.infinityfreeapp.com/]
 * **Tài khoản:** `nguyenvancong2005vp@gmail.com (cong)` / **Mật khẩu:** `@Cong31082005`
 
 ---
