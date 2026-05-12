@@ -21,8 +21,9 @@ Hệ thống **Kong Cars** là nền tảng thương mại dịch vụ chuyên b
 ---
 
 ## 🔐 Tài khoản Demo
-* **Trang quản trị:** [https://kongcars.infinityfreeapp.com/]
+* **Trang quản trị:** [https://kongcars.infinityfreeapp.com/wp-admin]
 * **Tài khoản:** `nguyenvancong2005vp@gmail.com (cong)` / **Mật khẩu:** `@Cong31082005`
+* **Khách hàng:** Có thể đăng ký tài khoản mới trực tiếp trên website.
 
 ---
 
