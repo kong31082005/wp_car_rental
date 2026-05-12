@@ -1,95 +1,83 @@
-# 🚗 KONG CARS - DỊCH VỤ CHO THUÊ XE TỰ LÁI KONGCARS
+# 🚗 KONG CARS - DỊCH VỤ CHO THUÊ XE TỰ LÁI
 ## 🌐 Đồ án môn học: Xây dựng Website trên nền tảng Mã nguồn mở (WordPress)
 
-Hệ thống được xây dựng trên nền tảng **WordPress Nâng Cao**, kết hợp giữa các công cụ xây dựng giao diện chuyên nghiệp và các đoạn mã tùy chỉnh (Custom Logic) để giải quyết bài toán thực tế trong lĩnh vực vận tải số. Dự án hỗ trợ quy trình đặt xe khép kín, xác lập hợp đồng điện tử và tự động hóa thanh toán trực tuyến.
+Hệ thống **Kong Cars** là nền tảng thương mại dịch vụ chuyên biệt cho thuê xe tự lái, được xây dựng trên nền tảng WordPress nâng cao. Dự án tập trung vào việc tự động hóa quy trình vận hành từ tìm kiếm, đặt lịch đến xác lập hợp đồng điện tử và thanh toán trực tuyến VietQR.
 
 ---
 
-## 🔗 Demo & Hosting
-* **Website URL:** [(https://kongcars.infinityfreeapp.com/)]
-* **Tài khoản Admin:** `nguyenvancong2005vp@gmail.com` / `@Cong31082005`
+## 🔗 Thông tin dự án
+* **Link Website Online:** [https://kongcars.id.vn](https://kongcars.id.vn)
+* **Link Video Demo:** [Xem Video Thuyết Minh Tại Đây](https://your-youtube-link.com)
 
 ---
 
-## 👥 Thành viên thực hiện
-
-| STT | Họ và tên | Mã sinh viên | Vai trò |
-|-----|-----------|--------------|---------|
-| 1 | **Nguyễn Văn Công** | 23810310128 | Nhóm trưởng |
-| 2 | **Vũ Trường Giang** | 23810310117 | Thành viên |
+## 🔐 Tài khoản Demo
+* **Trang quản trị:** `https://kongcars.id.vn/wp-admin`
+* **Tài khoản:** `nguyenvancong2005vp@gmail.com (cong)` / **Mật khẩu:** `@Cong31082005`
 
 ---
 
-## 📌 Tổng quan dự án
+## 👥 Danh sách thành viên & Phân công nhiệm vụ
 
-### 🎯 Mục tiêu đề tài
-- Làm chủ hệ quản trị nội dung **WordPress** và hệ sinh thái Plugin.
-- Sử dụng **CPT UI & ACF** để cấu trúc hóa dữ liệu ngành thuê xe.
-- Tùy biến nghiệp vụ sâu bằng **Code Snippets** (PHP/JS) thay vì chỉ dùng Plugin có sẵn.
-- Tích hợp hệ thống thanh toán tự động qua cổng **PayOS** (VietQR).
-
-### 👥 Vai trò người dùng (Actor)
-* **Khách hàng (Customer):** Tìm kiếm xe, yêu thích xe, đặt lịch, hợp đồng điện tử, thanh toán, tích điểm đổi voucher và đăng tin tức, đăng nhập, đăng ký, xác thực email.
-* **Quản trị viên (Admin):** Quản lý kho xe (CPT), điều phối đơn hàng (WooCommerce), quản trị nội dung và giám sát hệ thống tích điểm.
+| STT | Họ và tên | MSSV | Phân công nhiệm vụ cụ thể |
+|-----|-----------|------|--------------------|
+| 1 | **Nguyễn Văn Công** | 23810310128 | **Nhóm trưởng**: Thiết lập kiến trúc hệ thống; Cấu hình CPT UI & ACF; Viết mã PHP tùy chỉnh qua Code Snippets (Tính tiền, tích điểm, đổi voucher, xác thực email, yêu thích xe); Quản trị Database; Thiết kế UI/UX bằng Elementor & UAE; Xây dựng Banner Smart Slider 3; Cấu hình hệ thống Email SMTP; Thiết lập cộng đồng tin tức và tương tác người dùng.  |
+| 2 | **Vũ Trường Giang** | 23810310117 | **Thành viên**: Quản trị nội dung xe; Viết mã PHP tùy chỉnh qua Code Snippets (logic hợp đồng, booking, thanh toán); Tích hợp cổng PayOS; Chức năng tìm kiếm xe, Đăng nhập, Đăng ký, Hợp đồng điện tử PDF; Thiết kế UI/UX bằng Elementor & UAE. |
 
 ---
 
-## 🛠 Công nghệ & Plugin sử dụng
-
-| Thành phần | Công nghệ / Plugin |
-|-----------|-----------|
-| **Core System** | WordPress 6.x (PHP & MySQL) |
-| **Giao diện** | Elementor Pro, Astra Theme, Smart Slider 3 |
-| **Dữ liệu tùy chỉnh** | CPT UI (Cars), Advanced Custom Fields (ACF) |
-| **Thương mại điện tử** | WooCommerce |
-| **Logic & Nghiệp vụ** | Code Snippets (Custom Shortcodes, Reward Logic) |
-| **Thanh toán** | PayOS (VietQR Integration) |
-| **Hệ thống Email** | WP Mail SMTP (Gmail API) |
-| **Tiện ích** | PDF Invoices (Export Hợp đồng), Ultimate Addons (UAE) |
+## 🛠 Công nghệ sử dụng
+Hệ thống tận dụng hệ sinh thái WordPress kết hợp với các kỹ thuật tùy biến mã nguồn:
+* **CMS:** WordPress 6.x.
+* **Page Builder:** Elementor Pro & Ultimate Addons for Elementor (UAE).
+* **Data Structure:** CPT UI (Cars) & Advanced Custom Fields (ACF).
+* **E-Commerce:** WooCommerce.
+* **Custom Logic:** Code Snippets (PHP/JS/Shortcodes) xử lý nghiệp vụ riêng biệt.
+* **Thanh toán:** PayOS API (VietQR động).
+* **Hệ thống bổ trợ:** WP Mail SMTP, Smart Slider 3, PDF Invoices.
 
 ---
 
-## 🧱 Quy trình xử lý nghiệp vụ (Workflow)
+## 🎨 UI / Demo
 
-1.  **Quản trị dữ liệu:** Admin dùng **CPT UI** tạo loại bài viết "Cars" và **ACF** để nhập thông số (Giá, hộp số, nhiên liệu).
-2.  **Xử lý Logic:** Các đoạn mã trong **Code Snippets** tính toán tổng tiền dựa trên ngày thuê và đóng gói thành **Shortcode** để hiển thị lên UI.
-3.  **Hành trình khách hàng:** Khách hàng chọn xe $\rightarrow$ Ký xác nhận điều khoản (Modal) $\rightarrow$ Thanh toán qua QR PayOS.
-4.  **Hậu mãi:** Hệ thống tự động xác nhận đơn hàng, gửi **Email xác nhận** đính kèm **Hợp đồng PDF** và cộng điểm thưởng vào tài khoản khách hàng.
-
----
-
-## 🚀 Các chức năng tiêu biểu
-
-### 🛡️ Nghiệp vụ lõi (Custom Logic)
-* **Hợp đồng điện tử:** Tự động tạo bản hợp đồng có giá trị đối chiếu (PDF) ngay khi đơn hàng hoàn tất.
-* **Thanh toán tự động:** Webhook từ PayOS tự động chuyển trạng thái đơn hàng sang "Processing" khi khách quét QR thành công.
-* **Reward System:** Hệ thống tích điểm, quay thưởng và đổi Voucher được viết bằng mã tùy chỉnh qua Shortcode.
-
-### 🎁 Trải nghiệm người dùng
-* **Search & Filter:** Tìm kiếm xe theo thời gian thực dựa trên các trường dữ liệu tùy biến (ACF).
-* **Social Hub:** Tính năng tin tức cho phép người dùng "thả tim" và bình luận tương tác.
-* **Yêu thích:** Lưu trữ danh sách xe khách hàng quan tâm vào Wishlist cá nhân.
+| Chức năng | Mô tả | Link |
+|----------|------|------|
+| **Trang chủ (Home)** | Giao diện chính với Banner Slider, Form nhập trường tìm kiếm và Danh sách xe | [Xem](./images_demo/home-ui.png) |
+| **Danh sách xe** | Hiển thị danh mục xe kèm bộ lọc thông minh | [Xem](./images_demo/archive-ui.png) |
+| **Chi tiết xe** | Thông tin kỹ thuật lấy từ trường ACF | [Xem](./images_demo/single-ui.png) |
+| **Thanh toán QR** | Giao diện quét mã VietQR động từ PayOS | [Xem](./images_demo/payment-ui.png) |
+| **Hợp đồng PDF** | Mẫu hợp đồng điện tử gửi qua Email khách hàng | [Xem](./images_demo/contract-ui.png) |
+| **Quà tặng/Voucher** | Giao diện đổi thưởng và lịch sử điểm thưởng | [Xem](./images_demo/reward-ui.png) |
+| **Cộng đồng** | Trang tin tức, hệ thống tương tác thả tim/bình luận | [Xem](./images_demo/news-ui.png) |
+| **Quản trị Admin** | Giao diện quản lý CPT, Đơn hàng và Snippets | [Xem](./images_demo/admin-ui.png) |
 
 ---
 
-## 📥 Hướng dẫn cài đặt & Chạy Local
+## 🚀 Chức năng chính
+
+### 1. Dành cho Khách hàng (Customer)
+* **Tìm kiếm & Lọc:** Tìm xe theo địa điểm, thời gian và các tiêu chí ACF (loại xe, hãng xe).
+* **Đặt xe & Thanh toán:** Quy trình đặt xe tích hợp xác nhận điều khoản hợp đồng và thanh toán QR Code tự động.
+* **Hệ sinh thái Loyalty:** Tích điểm thưởng sau mỗi chuyến đi, đổi voucher giảm giá và tham gia vòng quay may mắn.
+* **Cộng đồng:** Đăng bài chia sẻ trải nghiệm, thả tim và bình luận tương tác.
+
+### 2. Dành cho Quản trị viên (Admin)
+* **Quản lý xe:** Thêm mới, chỉnh sửa thông số kỹ thuật xe qua giao diện ACF.
+* **Quản lý đơn hàng:** Theo dõi luồng booking và trạng thái thanh toán tự động qua Webhook.
+
+---
+
+## 📥 Hướng dẫn cài đặt & Chạy Project
 
 ### 1. Yêu cầu hệ thống
-* Web Server (XAMPP/Laragon) hỗ trợ PHP 7.4+ và MySQL.
-* WordPress phiên bản mới nhất.
+* Localhost: XAMPP, Laragon hoặc Local WP (PHP 7.4+, MySQL 5.7+).
 
-### 2. Triển khai
-1. Copy thư mục source vào `htdocs`.
-2. Import cơ sở dữ liệu từ file `.sql` kèm theo.
-3. Cấu hình file `wp-config.php` để kết nối Database.
-4. Truy cập `/wp-admin` để quản lý các tính năng qua Plugin và Code Snippets.
-
----
-
-## 🧭 Hướng phát triển
-- Tích hợp bản đồ GPS theo dõi vị trí xe.
-- Phát triển hệ thống đa ngôn ngữ cho khách du lịch nước ngoài.
-- Nâng cấp tính năng ký số trực tiếp trên màn hình cảm ứng khi ký hợp đồng.
+### 2. Các bước cài đặt
+1.  **Tải mã nguồn:** `git clone <link-repo-cua-ban>`
+2.  **Thiết lập:** Coppy thư mục vào `htdocs/wp-carrental/`.
+3.  **Database:** Tạo DB trống trên phpMyAdmin và Import file `.sql` từ thư mục `database/`.
+4.  **Cấu hình:** Cập nhật thông tin `wp-config.php` để kết nối Database.
+5.  **Hình ảnh Demo:** Các ảnh minh họa được lưu tại `htdocs/wp-carrental/images_demo/`.
 
 ---
-**© 2026 Nhóm 8 - Đồ án WordPress Nâng Cao.**
+**© 2026 Kong Cars Team - Đồ án môn Web Nâng Cao.**
